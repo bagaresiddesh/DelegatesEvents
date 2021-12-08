@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
 using SinglecastDelegate;
 using MulticastDelegate;
 
@@ -9,8 +8,8 @@ namespace ConsoleApp
     {
         static void Main()
         {
-            /* 
-            1.What is a Delegate in C#? 
+             
+  /*        1.What is a Delegate in C#? 
             Delegate is a type safe function pointer
 
             2.Why do we need delegates in C#?
@@ -20,16 +19,12 @@ namespace ConsoleApp
             Delegates allow methods to be passed as parameters and delegate instances attach or detach a method at run time making it more dynamic and flexible to use.
             
             4.What are types of delegates in C#?
-            single, multicast and anonymous types of delegates.
-
-           
-           
-            8.What are Anonymous Delegates in C#? and write a program for anonymous delegates
+            single, multicast and anonymous types of delegates. */
 
 
-            */
 
             //6.What is a Singlecast delegate in C#? and write a program for singlecast delegate
+            Console.WriteLine("\nSingle delegate : ");
             Console.WriteLine("Enter two numbers");//accepting two numbers
             int num1 = Convert.ToInt32(Console.ReadLine());
             int num2 = Convert.ToInt32(Console.ReadLine());
@@ -41,7 +36,7 @@ namespace ConsoleApp
             Console.WriteLine("Subtraction : {0}", op2(num1, num2));
 
             //7.What is a Multicast delegate in C#? and write a program for muliticast delegates
-            Console.WriteLine("\nMulticast delegate : ");//accepting two numbers
+            Console.WriteLine("\nMulticast delegate : ");
             
             Console.WriteLine("Enter Width of rectangle");
             int width = Convert.ToInt32(Console.ReadLine());
@@ -55,8 +50,17 @@ namespace ConsoleApp
             rectDelegate += rect.GetPerimeter;
             rectDelegate(width, length);
 
-            Console.ReadLine();
+            //8.What are Anonymous Delegates in C#? and write a program for anonymous delegates
+            Console.WriteLine("\nAnonymous Delegates");
+            int outsideScope = 99;
+            State s = delegate (string state) 
+            {
+                Console.WriteLine($"The state: {state} was entered!");
+                Console.WriteLine($"The value from outer scope is: {outsideScope}");
+            };
+            s("up");
 
+            Console.ReadLine();
         }
     }
 }

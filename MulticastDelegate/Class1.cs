@@ -2,7 +2,9 @@
 
 namespace MulticastDelegate
 {
-    public delegate void RectangleDelegate(double height,double width);
+    public delegate void RectangleDelegate(double height,double width);//Multicast Delegate definition
+
+    public delegate void State(string state);//Anonymous Delegate definition
     public class Rectangle
     {
         public void GetArea(double Width, double Height)
