@@ -36,6 +36,12 @@
     <Reference Include="DelegatesLibrary">
       <HintPath>..\DelegatesLibrary\bin\Debug\DelegatesLibrary.dll</HintPath>
     </Reference>
+    <Reference Include="EventRefelection">
+      <HintPath>..\EventRefelection\bin\Debug\EventRefelection.dll</HintPath>
+    </Reference>
+    <Reference Include="EventsReflection">
+      <HintPath>..\EventsReflection\bin\Debug\netcoreapp3.1\EventsReflection.dll</HintPath>
+    </Reference>
     <Reference Include="MulticastDelegate">
       <HintPath>..\MulticastDelegate\bin\Debug\MulticastDelegate.dll</HintPath>
     </Reference>
