@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegatesLibrary", "Delegat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MulticastDelegate", "MulticastDelegate\MulticastDelegate.csproj", "{060E51C8-5D03-4BBB-B22C-8650AAB6B336}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventsReflection", "EventsReflection\EventsReflection.csproj", "{CEA73F4B-CA16-4B92-A559-9B64D81244E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventRefelection", "EventRefelection\EventRefelection.csproj", "{42EDBBED-BA91-4385-A556-E16AA6F375DC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{060E51C8-5D03-4BBB-B22C-8650AAB6B336}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{060E51C8-5D03-4BBB-B22C-8650AAB6B336}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{060E51C8-5D03-4BBB-B22C-8650AAB6B336}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CEA73F4B-CA16-4B92-A559-9B64D81244E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEA73F4B-CA16-4B92-A559-9B64D81244E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEA73F4B-CA16-4B92-A559-9B64D81244E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEA73F4B-CA16-4B92-A559-9B64D81244E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42EDBBED-BA91-4385-A556-E16AA6F375DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42EDBBED-BA91-4385-A556-E16AA6F375DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42EDBBED-BA91-4385-A556-E16AA6F375DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42EDBBED-BA91-4385-A556-E16AA6F375DC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
